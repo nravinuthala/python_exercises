@@ -28,3 +28,5 @@
 # 2
 # Quotient: 2
 # Remainder: 1
+
+print()
