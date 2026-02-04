@@ -19,7 +19,7 @@ class Employee(Person):
         emp_details = (self.empid, self.dept, self.company)
         return personal_details, emp_details
 
-emp1 = Employee(1234, "Nag", "Rav", 101, "EdTech", "HCL")
+emp1 = Employee(1234, "Nag", "Rav", 101, "Finance","Acme")
 print(emp1.aadharid)
 details = emp1.display_personal_details()
 print(details)
